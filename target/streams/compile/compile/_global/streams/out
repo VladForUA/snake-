@@ -1,0 +1,15 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/vlad/snakeAI/src/main/scala/com/idalko/battle_snake/fw/json/HeadTypeFormat.scala:9:48: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: JsArray(_), JsFalse, JsNull, JsNumber(_), JsObject(_), JsTrue[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def read(json: JsValue): HeadType = json match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vlad/snakeAI/src/main/scala/com/idalko/battle_snake/fw/json/MoveFormat.scala:9:44: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: JsArray(_), JsFalse, JsNull, JsNumber(_), JsObject(_), JsTrue[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def read(json: JsValue): Move = json match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vlad/snakeAI/src/main/scala/com/idalko/battle_snake/fw/json/TailTypeFormat.scala:9:48: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: JsArray(_), JsFalse, JsNull, JsNumber(_), JsObject(_), JsTrue[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def read(json: JsValue): TailType = json match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m53 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
